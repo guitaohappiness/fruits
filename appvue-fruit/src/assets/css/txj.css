@@ -1,0 +1,314 @@
+.group .vux-tab-wrap{
+	padding-top:0.8rem;
+}
+.group .vux-tab-container,
+.group .vux-tab{
+	height:0.8rem!important;
+}
+.paymentList .vux-tab-wrap{
+	padding-top:1rem;
+}
+.paymentList .vux-tab-container,
+.paymentList .vux-tab{
+	height:1rem!important;
+}
+.group .vux-tab .vux-tab-item{
+	line-height: 0.8rem;
+	background:none!important;
+}
+.paymentList .vux-tab .vux-tab-item{
+	line-height: 1rem;
+	background:none!important;
+}
+.group .vux-tab-ink-bar{
+	margin-left:15%!important;
+	width:20%!important;
+	height:0.05rem!important;
+}
+.groupDetails .vux-slider > .vux-swiper > .vux-swiper-item img,
+.groupDetails .vux-slider > .vux-swiper > .vux-swiper-item{
+	width:100%;
+	height:7.5rem;
+}
+.storeDes .vux-slider > .vux-swiper > .vux-swiper-item img,
+.storeDes .vux-slider > .vux-swiper > .vux-swiper-item{
+	width:100%;
+	height:3.75rem;
+}
+.login .weui-input{
+    border: 0.02rem solid #ccc;
+    padding-left: .3rem;
+}
+.login .weui-btn {
+    border-radius: .08rem;
+    height: .88rem;
+    line-height: .88rem;
+}
+.login .weui-input {
+    height: 0;
+    line-height: 0;
+    border-radius: .08rem;
+    padding: 0.4rem 0.2rem
+}
+.login .weui-cells:after,
+.addAds .weui-cells:before,
+.login .weui-cells:before,
+.login .weui-cell:after,
+.login .weui-cell:before,
+.subOrder .weui-cells:before,
+.subOrder .weui-cells:after{
+	border: none!important;
+}
+.login .weui-cell{
+	padding: 0;
+    margin-bottom:.3rem;
+}
+.login .vux-no-group-title{
+	margin-top:0;
+}
+.login .weui-input::placeholder{
+	color:#999;
+    font-size: 0.32rem;
+    line-height: 0.5rem;
+}
+.subOrder .weui-input::placeholder{
+	color:#999;
+	font-size: 0.24rem;
+}
+.login .weui-vcode .weui-input{
+	width: 3.6rem;
+}
+.login .weui-vcode .weui-btn {
+    width: 1.98rem;
+    text-align: center;
+    padding: 0;
+    font-size: .3rem;
+    background:#1CCFCF;
+}
+.login .weui-vcode .weui-btn:after{
+	border: none!important;
+}
+.login .weui-btn_disabled.weui-btn_default{
+	color:#1CCFCF!important;
+	font-family: "PingFang-Medium";
+	background: #F7F7F7;
+}
+.login .weui-btn_primary:not(.weui-btn_disabled):active{
+	background:#1CCFCF;
+	color:#fff;
+}
+.weui-dialog__hd{
+	padding:0!important;
+}
+.weui-dialog__title{
+	font-size: 0.34rem!important;
+	font-family: 'PingFang-Medium';
+}
+.weui-dialog__btn_default{
+	font-size: 0.3rem!important;
+}
+.weui-dialog__btn_primary{
+	font-size: 0.3rem!important;
+	color:#1CCFCF!important;
+}
+.vux-indicator.custom-bottom {
+  	bottom:0.2rem !important;
+}
+.vux-slider > .vux-indicator > a > .vux-icon-dot,
+.vux-slider .vux-indicator-right > a > .vux-icon-dot{
+	display: inline-block;
+    vertical-align: middle;
+    width: 0.1rem!important;
+    height: 0.1rem!important;
+    border-radius:50%!important;
+    background-color: rgba(51,51,51,0.3)!important;
+}
+.vux-slider > .vux-indicator > a > .vux-icon-dot.active,
+.vux-slider .vux-indicator-right > a > .vux-icon-dot.active {
+    background-color: rgba(51,51,51,0.9)!important;
+}
+
+input[type="search"]::-webkit-search-cancel-button{
+    -webkit-appearance: none;
+}
+
+.addAds .weui-cells,
+.subOrder .weui-cells{
+	margin-top:0;
+}
+.addAds .weui-cell{
+	height:1rem;
+}
+.addAds .weui-input::placeholder{
+	color:#999;
+	font-size: 0.28rem;
+}
+.addAds .weui-cells .vux-popup-picker-select{
+	font-size:0.28rem;
+	text-align: left!important;
+}
+.addAds .weui-cells .weui-cell__ft{
+	display:none;
+}
+.addAds .weui-cells .weui-cell_access:active{
+	background-color:inherit!important;
+}
+.vux-popup-header-right{
+	padding-right: 15px;
+    color: #333!important;
+}
+
+.personalDes .weui-cell_radio .weui-cell__ft{
+	padding-left: 0!important;
+    float: left!important;
+    display: block!important;
+}
+.personalDes .weui-cells_radio .weui-check:checked + .weui-icon-checked:before{
+	content: "\EA06";
+	color: #1CCFCF;
+}
+.personalDes .weui-cell_radio .weui-cell__ft .weui-icon-checked:before{
+	content: "\EA01";
+    color: #c9c9c9;
+    display: block;
+}
+.personalDes .weui-cells_radio{
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+}
+.personalDes .weui-cell_radio .weui-cell__bd{
+	float: right;
+	
+}
+.personalDes .weui-cell_radio .weui-cell__ft{
+	padding-left: 0;
+    float: left;
+    display: block!important;
+}
+.personalDes .weui-cells_radio .weui-icon-checked:before{
+	font-size:0.3rem!important;
+}
+.personalDes .weui-cells_radio .weui-cell_radio:first-child{
+	padding-right:0.3rem!important;
+}
+.personalDes .weui-check__label:active{
+	background:none!important;
+}
+.orderList .vux-tab-container,
+.orderList .vux-tab,
+.orderList .vux-tab .vux-tab-item,
+.subOrder .vux-tab-container,
+.subOrder .vux-tab,
+.subOrder .vux-tab .vux-tab-item{
+	height:1rem;
+	line-height: 1rem;
+}
+.orderList .scrollable,
+.subOrder .scrollable{
+	padding-bottom:0;
+}
+.orderList .scrollable .vux-tab-ink-bar,
+.subOrder .scrollable .vux-tab-ink-bar{
+	bottom:0;
+}
+.orderList .vux-tab .vux-tab-item,
+.subOrder .vux-tab .vux-tab-item{
+	width:20%;
+	font-size: 0.28rem;
+	font-family: 'PingFang-Medium';
+	flex:1;
+	color:#333;
+}
+.orderList .vux-tab-wrap,
+.subOrder .vux-tab-wrap{
+	padding-top:1rem;
+}
+.refund .weui-cell,
+.subOrder .weui-cell{
+	padding:0;
+}
+.refund .weui-textarea{
+	background:#F4F4F4;
+}
+.refund .weui-textarea::placeholder{
+	color:#999;
+}
+.refund .weui-btn:after{
+	border:none;
+}
+.refund button.weui-btn{
+	margin-top:0.3rem;
+	height:1rem;
+	line-height:1rem;
+	background:#1CCFCF;
+	color:#fff;
+	border-radius:0;
+}
+.refund .weui-btn_default:not(.weui-btn_disabled):active{
+	color:#fff;
+    background-color:#1CCFCF;
+}
+.user .weui-dialog{
+	width:72%;
+}
+.wallet .weui-dialog{
+	background-color:inherit;
+	border-radius: 0.1rem!important;
+}
+.vux-slider > .vux-swiper > .vux-swiper-item img{
+	width:100%;
+	height:100%;
+}
+.orderList .weui-cells,
+.refundList .weui-cells,
+.userMessage .weui-cells,
+.hotSale .weui-cells,
+.freshCut .weui-cells,
+.search .weui-cells,
+.giftBox .weui-cells,
+.userRec .weui-cells,
+.index .weui-cells,
+.paymentList .weui-cells{
+	margin-top:0;
+	display: flex;
+	justify-content: center;
+	background-color:inherit;
+}
+.orderList .weui-cells:before,
+.orderList .weui-cells:after,
+.refundList .weui-cells:before,
+.refundList .weui-cells:after,
+.userMessage .weui-cells:before,
+.userMessage .weui-cells:after,
+.hotSale .weui-cells:before,
+.hotSale .weui-cells:after,
+.freshCut .weui-cells:before,
+.freshCut .weui-cells:after,
+.search .weui-cells:before,
+.search .weui-cells:after,
+.giftBox .weui-cells:before,
+.giftBox .weui-cells:after,
+.userRec .weui-cells:before,
+.userRec .weui-cells:after,
+.index .weui-cells:before,
+.index .weui-cells:after,
+.paymentList .weui-cells:before,
+.paymentList .weui-cells:after{
+	border:none!important;
+}
+.orderList .weui-cell__ft,
+.refundList .weui-cell__ft,
+.userMessage .weui-cell__ft,
+.hotSale .weui-cell__ft,
+.freshCut .weui-cell__ft,
+.search .weui-cell__ft,
+.giftBox .weui-cell__ft,
+.userRec .weui-cell__ft,
+.index .weui-cell__ft,
+.paymentList .weui-cell__ft{
+	display: flex;
+	align-items: center;
+}
+
